@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="788" it="0" lt="637" ct="26" ts="1726407957653" s="true" lb="search song" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="27909" sby="227" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/search?keywords=海阔天空</java.net.URL>
+</httpSample>
+<httpSample t="390" it="0" lt="346" ct="0" ts="1726407958448" s="true" lb="comment-song" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="29056" sby="206" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/comment/music?id=186016&amp;limit=1</java.net.URL>
+</httpSample>
+<httpSample t="508" it="0" lt="465" ct="0" ts="1726407958840" s="true" lb="dj-program" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="185268" sby="199" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/dj/program?rid=336355127</java.net.URL>
+</httpSample>
+
+</testResults>
