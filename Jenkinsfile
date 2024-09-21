@@ -7,7 +7,8 @@ pipeline {
         stage('Install Jmeter'){
             steps{
                 withDockerContainer('justb4/jmeter'){
-                    sh 'jmeter -v'
+                    // 降低 JVM 的堆内存，限制在 512MB
+                    sh 'jmeter -J-Xms256m -J-Xmx512m -v'
                 }
             }
         }
