@@ -13,7 +13,7 @@ pipeline {
                 sh 'pwd'
                 sh 'ls'
                 sh 'ant -version'
-                sh 'ant'
+                // sh 'ant'
             }
         } 
 
