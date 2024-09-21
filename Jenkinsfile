@@ -4,7 +4,11 @@ pipeline {
         ant 'ant1.10.15'  
     }
     stages {
-        stage('Jmeter Testcases') {   
+        stage('Install Jmeter'){
+            withDockerContainer('justb4/jmeter')
+            sh 'jmeter -v'
+        }
+        stage('Ant Testcases') {   
             steps {
                 sh 'pwd'
                 sh 'ls'
