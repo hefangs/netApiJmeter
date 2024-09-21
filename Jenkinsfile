@@ -4,14 +4,6 @@ pipeline {
         ant 'ant1.10.15'  
     }
     stages {
-        stage('Install Jmeter'){
-            steps{
-                withDockerContainer('justb4/jmeter'){
-                    // 降低 JVM 的堆内存，限制在 512MB
-                    sh 'jmeter -J-Xms256m -J-Xmx512m -v'
-                }
-            }
-        }
         stage('Ant Testcases') {   
             steps {
                 sh 'pwd'
