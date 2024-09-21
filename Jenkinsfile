@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        ant 'ant1.10.15'  // "AntName" 是你在全局工具配置中定义的名字
+        ant 'ant1.10.15'  
     }
     stages {
         stage('Jmeter Testcases') {   
