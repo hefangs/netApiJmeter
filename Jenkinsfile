@@ -5,8 +5,10 @@ pipeline {
     }
     stages {
         stage('Install Jmeter'){
-            withDockerContainer('justb4/jmeter'){
-                sh 'jmeter -v'
+            steps{
+                withDockerContainer('justb4/jmeter'){
+                    sh 'jmeter -v'
+                }
             }
         }
         stage('Ant Testcases') {   
