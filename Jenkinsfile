@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Install Jmeter'){
             steps{
-                withDockerContainer('justb4/jmeter'){
+                withDockerContainer(args: '--memory="1g"', image: 'justb4/jmeter'){
                     sh 'jmeter -J-Xms128m -J-Xmx256m -v'
                 }
             }
