@@ -4,19 +4,19 @@ pipeline {
         ant 'ant1.10.15'  
     }
     stages {
-        stage('Install Jmeter'){
-            steps{
-                withDockerContainer(args: '--memory="1g"', image: 'justb4/jmeter'){
-                    sh 'jmeter -J-Xms128m -J-Xmx256m -v'
-                }
-            }
-        }
+        // stage('Install Jmeter'){
+        //     steps{
+        //         withDockerContainer(args: '--memory="1g"', image: 'justb4/jmeter'){
+        //             sh 'jmeter -J-Xms128m -J-Xmx256m -v'
+        //         }
+        //     }
+        // }
         stage('Ant Testcases') {   
             steps {
                 sh 'pwd'
                 sh 'ls'
                 sh 'ant -version'
-                sh 'ant'
+                // sh 'ant'
             }
         } 
 
