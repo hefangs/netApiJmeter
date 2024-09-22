@@ -27,7 +27,7 @@
 //         //             sh 'allure generate ./temp -o ./allure-report --clean'
 //         //         }
 //         //     }
-//         // } 
+//         // }
 //     }
 //     // post {
 //         // success{
