@@ -1,0 +1,25 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Filename,Latency,Encoding,SampleCount,ErrorCount,Hostname,IdleTime,Connect
+1727115015384,434,登录,200,OK,user 1-1,text,true,,10429,273,1,1,http://106.15.79.229:3000/login/cellphone?phone=15000840699&password=hf15000840699,,429,utf-8,1,0,hedeMacBook-Pro.local,0,30
+1727115016545,148,登录状态,200,OK,user 1-1,text,true,,1677,1021,1,1,http://106.15.79.229:3000/login/status,,148,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115016712,321,获取用户详情,200,OK,user 1-1,text,true,,2404,1034,1,1,http://106.15.79.229:3000/user/detail?uid=358047007,,321,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115017035,143,获取账号信息,200,OK,user 1-1,text,true,,1668,1021,1,1,http://106.15.79.229:3000/user/account,,143,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115017179,141,获取用户信息,200,OK,user 1-1,text,true,,650,1022,1,1,http://106.15.79.229:3000/user/subcount,,141,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115017322,127,获取用户等级,200,OK,user 1-1,text,true,,705,1019,1,1,http://106.15.79.229:3000/user/level,,127,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115017451,144,获取用户绑定信息,200,OK,user 1-1,text,true,,1330,1035,1,1,http://106.15.79.229:3000/user/binding?uid=358047007,,144,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115017597,459,更新用户信息,405,Method Not Allowed,user 1-1,text,false,,580,1136,1,1,http://106.15.79.229:3000/user/update?gender=1&birthday=599612461911&nickname=he_cnfsor&province=440000&city=440100&signature=hefang_kryqitpmxmnuubbljuju,,459,utf-8,1,1,hedeMacBook-Pro.local,0,0
+1727115018059,158,获取用户历史评论,200,OK,user 1-1,text,true,,589,1071,1,1,http://106.15.79.229:3000/user/comment/history?uid=358047007&limit=10&time=1616217577564,,158,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115018219,138,获取用户电台,200,OK,user 1-1,text,true,,534,1030,1,1,http://106.15.79.229:3000/user/dj?uid=358047007,,138,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115018359,164,获取用户关注列表,200,OK,user 1-1,text,true,,18050,1035,1,1,http://106.15.79.229:3000/user/follows?uid=358047007,,164,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115018525,159,获取用户粉丝列表,200,OK,user 1-1,text,true,,18050,1053,1,1,http://106.15.79.229:3000/user/follows?uid=358047007&limit=30&offset=0,,159,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115018686,413,获取用户动态,200,OK,user 1-1,text,true,,240770,1054,1,1,http://106.15.79.229:3000/user/event?uid=358047007&limit=30&lasttime=-1,,396,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115019143,245,转发用户动态,250,unknown,user 1-1,text,true,,551,1138,1,1,http://106.15.79.229:3000/event/forward?uid=358047007&evId=30084812199&forwards=转发用户动态_qgabxefyxscrabvcqhqi,,245,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115019403,190,删除用户动态,200,OK,user 1-1,text,true,,518,1024,1,1,http://106.15.79.229:3000/event/del?evId=,,189,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115019600,148,电台 - 分类,200,OK, dj 2-1,text,true,,25729,3686,1,1,http://106.15.79.229:3000/dj/catelist,,139,utf-8,1,0,hedeMacBook-Pro.local,0,1
+1727115019749,161,电台 - 今日优选,200,OK, dj 2-1,text,true,,518,3692,1,1,http://106.15.79.229:3000/dj/today/perfered,,161,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115019915,144,私信和通知接口,200,OK,message 3-1,text,true,,1030,3683,1,1,http://106.15.79.229:3000/pl/count,,144,utf-8,1,0,hedeMacBook-Pro.local,0,1
+1727115020064,180,获取用户歌单,200,OK,playlist 4-1,text,true,,21374,3702,1,1,http://106.15.79.229:3000/user/playlist?uid=358047007,,173,utf-8,1,0,hedeMacBook-Pro.local,0,1
+1727115020261,253,更新歌单,200,OK,playlist 4-1,text,true,,723,3834,1,1,http://106.15.79.229:3000/playlist/update?id=10178922332&name=我的新歌单_ilersojb&desc=描述_trriiocaxphlsxykdlpd&tags=欧美,,253,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115020515,203,调整歌单顺序,200,OK,playlist 4-1,text,true,,496,3748,1,1,"http://106.15.79.229:3000/playlist/order/update?ids=[12640150654,10178922332,504353039,12639846797]",,203,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115020723,529,获取每日推荐歌曲,200,OK,song 5-1,text,true,,68371,3690,1,1,http://106.15.79.229:3000/recommend/songs,,510,utf-8,1,0,hedeMacBook-Pro.local,0,1
+1727115021254,284,调整歌曲顺序,200,OK,song 5-1,text,true,,717,3728,1,1,"http://106.15.79.229:3000/song/order/update?pid=504353039&ids=[37993020,191469]",,284,utf-8,1,0,hedeMacBook-Pro.local,0,0
+1727115021543,201,国家编码列表,200,OK,other 6-1,text,true,,13339,3694,1,1,http://106.15.79.229:3000/countries/code/list,,201,utf-8,1,0,hedeMacBook-Pro.local,0,1
