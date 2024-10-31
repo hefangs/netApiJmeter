@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="55" it="0" lt="48" ct="21" ts="1730363710385" s="true" lb="HTTP Request 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="27888" sby="228" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/search?keywords=海阔天空</java.net.URL>
+</httpSample>
+<httpSample t="21" it="0" lt="12" ct="0" ts="1730363710445" s="true" lb="HTTP Request 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="51165" sby="207" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/comment/music?id=186016&amp;limit=1</java.net.URL>
+</httpSample>
+<httpSample t="22" it="0" lt="10" ct="0" ts="1730363710466" s="true" lb="HTTP Request 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="186048" sby="200" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/dj/program?rid=336355127</java.net.URL>
+</httpSample>
+
+<httpSample t="53" it="0" lt="47" ct="23" ts="1730363713140" s="true" lb="HTTP Request 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="27888" sby="228" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/search?keywords=海阔天空</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="11" ct="0" ts="1730363713198" s="true" lb="HTTP Request 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="51165" sby="207" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/comment/music?id=186016&amp;limit=1</java.net.URL>
+</httpSample>
+<httpSample t="18" it="0" lt="9" ct="0" ts="1730363713217" s="true" lb="HTTP Request 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="186048" sby="200" ng="1" na="1">
+  <java.net.URL>http://106.15.79.229:3000/dj/program?rid=336355127</java.net.URL>
+</httpSample>
+
+</testResults>
